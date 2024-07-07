@@ -17,10 +17,10 @@ int main() {
     
     do{
         int twoje_pieniadze;
-        cout << "ile chcesz wplacic pieniedzy? ";
-        cin >> twoje_pieniadze;
         int CasinoNumber = generateCasinoNumber();
         int userChoice;
+        cout << "ile chcesz wplacic pieniedzy? ";
+        cin >> twoje_pieniadze;
         cout << "Wybierz liczbe(1-50) ";
         cin >> userChoice;
         cout << "Casino chose: " << CasinoNumber << endl;
